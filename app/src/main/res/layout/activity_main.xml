@@ -50,13 +50,14 @@
             <Button
                 android:id="@+id/btn1"
                 android:layout_width="match_parent"
-                android:text="Modul 1"
+                android:text="Modul 1 PENGENALAN ANDROID DAN STRUKTUR DATA"
                 android:layout_marginTop="10dp"
                 android:layout_height="wrap_content" />
             <Button
+                android:id="@+id/btn2"
                 android:layout_width="match_parent"
                 android:layout_marginTop="10dp"
-                android:text="Modul 2"
+                android:text="Modul 2 MENGUNAKAN KOMPONEN ANTARMUKA,HURUF,DAN WARNA"
                 android:layout_height="wrap_content" />
             <Button
                 android:layout_width="match_parent"

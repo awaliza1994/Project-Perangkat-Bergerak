@@ -19,6 +19,10 @@
         <activity android:name=".layer" />
         <activity android:name=".layer1"></activity>
         <activity android:name=".layer2"></activity>
+        <activity android:name=".layer3"></activity>
+        <activity android:name=".layer3_second"></activity>
+
+
     </application>
 
 </manifest>

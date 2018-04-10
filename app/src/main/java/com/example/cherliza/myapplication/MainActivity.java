@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent btgree = new Intent(getApplicationContext(),layer.class);
-                startActivity(btgree);
+                Intent modul1 = new Intent(getApplicationContext(),layer.class);
+                startActivity(modul1);
             }
         });
 
@@ -28,10 +28,19 @@ public class MainActivity extends AppCompatActivity {
        bt2.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View view) {
-               Intent mbah = new Intent(getApplicationContext(),layer2.class);
-               startActivity(mbah);
+               Intent modul2 = new Intent(getApplicationContext(),layer2.class);
+               startActivity(modul2);
            }
        });
+
+        Button bt3= ( Button ) findViewById (R.id.btn3);
+        bt3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent modul3 = new Intent(getApplicationContext(),layer3.class);
+                startActivity(modul3);
+            }
+        });
     }
 }
 

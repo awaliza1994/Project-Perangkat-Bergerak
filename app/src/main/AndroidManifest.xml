@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.cherliza.myapplication">
 
+
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,10 +20,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".layer" />
-        <activity android:name=".layer1"></activity>
-        <activity android:name=".layer2"></activity>
-        <activity android:name=".layer3"></activity>
-        <activity android:name=".layer3_second"></activity>
+        <activity android:name=".layer1" />
+        <activity android:name=".layer2" />
+        <activity android:name=".layer3" />
+        <activity android:name=".layer3_second" />
+        <activity android:name=".layer4"/>
 
 
     </application>

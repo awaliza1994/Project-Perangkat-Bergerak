@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -63,12 +63,13 @@
                 android:id="@+id/btn3"
                 android:layout_width="match_parent"
                 android:layout_marginTop="10dp"
-                android:text="Modul 3"
+                android:text="Modul 3 APLIKASI ANDROID DENGAN LAYOUT DAN PENDENGAR EVENT"
                 android:layout_height="wrap_content" />
             <Button
+                android:id="@+id/btn4"
                 android:layout_width="match_parent"
                 android:layout_marginTop="10dp"
-                android:text="Modul 4"
+                android:text="Modul 4 APLIKASI ANDROID DENGAN LISTVIEW"
                 android:layout_height="wrap_content" />
             <Button
                 android:layout_width="match_parent"
@@ -94,4 +95,4 @@
         </LinearLayout>
     </ScrollView>
 
-</RelativeLayout>
+</LinearLayout>

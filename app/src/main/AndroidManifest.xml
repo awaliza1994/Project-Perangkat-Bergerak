@@ -27,6 +27,7 @@
         <activity android:name=".modul4.layer4" />
         <activity android:name=".modul5.Layer5"/>
         <activity android:name=".modul5.DrawingActivity"/>
+        <activity android:name=".modul6.MainActivity"/>
     </application>
 
 </manifest>

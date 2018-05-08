@@ -78,9 +78,10 @@
                 android:text="Modul 5 aplikasi android dengan fragment"
                 android:layout_height="wrap_content" />
             <Button
+                android:id="@+id/btn6"
                 android:layout_width="match_parent"
                 android:layout_marginTop="10dp"
-                android:text="Modul 6"
+                android:text="Modul 6 Aplikasi Dialog dengan dialog fragment"
                 android:layout_height="wrap_content" />
             <Button
                 android:layout_width="match_parent"

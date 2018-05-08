@@ -65,6 +65,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button bt6= ( Button ) findViewById (R.id.btn6);
+        bt6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent modul6= new Intent(getApplicationContext(), com.example.cherliza.myapplication.modul6.MainActivity.class);
+                startActivity(modul6);
+            }
+        });
+
     }
 }
 
